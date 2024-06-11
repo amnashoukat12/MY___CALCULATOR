@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'League Spartan', sans-serif;
+}
+
+.calculator {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #c5c6c7; 
+}
+
+.main {
+    padding: 40px;
+    border-radius: 10px;
+    background-color: #151515;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4); 
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 15px; 
+    font-size: 24px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border: 2px solid #616560;
+    background-color: #f0f0f0; 
+}
+
+.row1,
+.row2,
+.row3,
+.row4 {
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+button {
+    width: 24%;
+    color: white;
+    border: none;
+    padding: 15px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #616560;
+}
+
+button:hover {
+    color: #222222; 
+}
+
+input[type="text"] + .row1 button {
+    background-color: #e69b00;
+}
+
+input[type="text"] + .row1 button:hover {
+    color: #393939;
+}
